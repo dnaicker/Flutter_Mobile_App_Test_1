@@ -42,7 +42,8 @@ allprojects {
 
   }
 
-}```
+}
+```
 
 3.2 android > app > build.gradle
 
@@ -64,7 +65,8 @@ dependencies {
 
   // https://firebase.google.com/docs/android/setup#available-libraries
 
-}```
+}
+```
 
 4. Download `google-services.json` from: firebase project > overview > project settings > General > Add app 
 4.1 Add `google-service.json` file to android > app > google-services.json
