@@ -3,9 +3,10 @@
 1. Install flutter https://docs.flutter.dev/get-started/install
 2. Setup flutter firebase https://firebase.google.com/docs/flutter/setup?platform=ios:
 3. Update the following android folder files:
-3.1 android > build.gradle 
+- `android > build.gradle` 
 
-```buildscript {
+```
+buildscript {
 
   repositories {
 
@@ -45,9 +46,10 @@ allprojects {
 }
 ```
 
-3.2 android > app > build.gradle
+- `android > app > build.gradle`
 
-```apply plugin: 'com.android.application'
+```
+apply plugin: 'com.android.application'
 
 // Add this line
 
@@ -68,10 +70,10 @@ dependencies {
 }
 ```
 
-4. Download `google-services.json` from: firebase project > overview > project settings > General > Add app 
-4.1 Add `google-service.json` file to android > app > google-services.json
-5. Have a virtual iOS or Android device create or a physical connected mobile device 
-6. From project folder run `flutter run`
+4. Download `google-services.json` from: `firebase project > overview > project settings > General > Add app`
+5. Add `google-service.json` file to `android > app > google-services.json`
+6. Have a virtual iOS or Android device create or a physical connected mobile device 
+7. From project folder run `flutter run`
 
 
 
