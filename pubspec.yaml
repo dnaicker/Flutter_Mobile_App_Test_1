@@ -39,11 +39,14 @@ dependencies:
   google_fonts: 3.0.1
   provider: 6.0.3
   rxdart: 0.27.4
-  json_annotation: 4.5.0
   firebase_auth: ^3.4.2
   google_sign_in: ^5.4.0
   crypto: ^3.0.2
   sign_in_with_apple: ^4.1.0
+  build_runner: 2.1.4
+  json_annotation: 4.5.0
+  json_serializable: ^6.0.1
+  cloud_firestore: ^3.3.0
 
 dev_dependencies:
   flutter_test:
@@ -71,6 +74,11 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/
+    - assets/covers/
+    - assets/covers/angular.png
+    - assets/congrats.gif
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
